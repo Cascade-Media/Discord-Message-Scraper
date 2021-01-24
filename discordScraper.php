@@ -4,16 +4,12 @@ use Symfony\Component\HttpClient\HttpClient;
 class DiscordScraper {
 
     /**
-     * Obtain the messages from your Discord server('s)
-     * Make sure you set your profile to developer
-     * which can be foundin  appearance settings.
-     * 
+     * Obtain the messages from your Discord channels.
      * @todo
-     * Requires your server channel ID
+     * Requires account developer mode enabled
+     * Requires each of your server channel ID's
      * Requires the creation of a discord bot 
      * Requires your discord bots token
-     * 
-     * 
      */
     public function getServerChannelMessages()
     { 
